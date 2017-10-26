@@ -8,12 +8,17 @@ header{
 h1{
 	color: #ffffff;
 	background-color: #4aaaa5;
+	font-size: 28px;
+	font-weight: bold;
 	width: 250px;
 	text-align: center;
 	float: left;
 	padding: 15px;
+	padding-top: 30px;
 	margin-bottom: 0px;
 	margin-left: 30px;
+	height: 40px;
+	letter-spacing: 1.2px;
 }
 
 h2{
@@ -24,6 +29,9 @@ h2{
 	border-style: solid;
 	border-width: 0px 0px 3px 0px;
 	padding: 10px;
+	font-size: 26px;
+	font-weight: bold;
+	margin: 20px;
 }	
 
 h3{
@@ -34,6 +42,9 @@ h3{
 	border-style: solid;
 	border-width: 0px 0px 2px 0px;
 	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 20px;
 }
 
 h4{
@@ -50,11 +61,6 @@ h4{
 p{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
-}
-
-div{
-	background-color: #ffffff;
-	border-color: #dddddd;
 }
 
 body {
@@ -76,22 +82,31 @@ a:hover{
 	text-decoration: underline;
 }
 
-a:active{
-	color: #777777;
-}
-
 footer{
 	text-align: center;
 	background-color: #666666;
 	border-color: #4aaaa5;
 	border-style: solid;
 	border-width: 5px 0px 0px 0px;
-	padding-bottom: 8px;
+	padding-top: 20px;
 	height: 35px;
-	position:relative;
-    bottom:0;
     width:100%;
     clear: both;
+}
+
+html, body{
+	height: 100%;
+	margin:0;
+}
+
+.wrapper{
+	min-height: 100%;
+	margin-bottom: -56px;
+}
+
+.footer,
+.push{
+	height:50px;
 }
 
 .menu{
@@ -102,7 +117,7 @@ footer{
 	padding-top: 50px;
 	padding-right: 30px;
 	margin-right: 28px;
-	}
+}
 
 #portfolio{
 	border-style: solid;
@@ -113,6 +128,8 @@ footer{
 }
 
 .connectwithme{
+	background-color: #ffffff;
+	border-color: #dddddd;
 	float: left;
 	width: 240px;
 	height: 140px;
@@ -138,12 +155,12 @@ footer{
 
 #biopic{
 	float: left;
-	margin: 15px;
+	margin: 15px 20px 15px 20px;
 }
 
 #aboutme{
 	padding: 10px;
-	margin: 10px 15px 10px 30px;
+	margin: 10px 15px 10px 20px;
 	line-height: 30px;
 }
 
@@ -256,10 +273,10 @@ textarea{
 	border: 1px solid lightgray;
 }
 
-::-webkit-input-placeholder { color: #eee; }
-::-moz-placeholder {color: #eee; }
-:-ms-input-placeholder { color: #eee; } 
-:-o-input-placeholder { color: #eee; } 
+::-webkit-input-placeholder { color: #dadcdc; }
+::-moz-placeholder {color: #dadcdc; }
+:-ms-input-placeholder { color: #dadcdc; } 
+:-o-input-placeholder { color: #dadcdc; } 
 
 .clearfix::after {
 	content:"";
